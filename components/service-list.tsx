@@ -6,6 +6,7 @@ import {
   Workflow,
   Rocket,
   type LucideIcon,
+  Cloud,
 } from "lucide-react";
 import Link from "next/link";
 import { ArrowUpRight } from "@/components/icons";
@@ -27,25 +28,25 @@ const featuredServices: ServiceCard[] = [
     icon: CodeXml,
   },
   {
-    title: "AI & automation",
+    title: "AI Integrated solutions & automation",
     description:
       "Practical AI assistants and automated workflows that reduce repetitive work while keeping people in control.",
     href: "/services/ai-automation-solutions",
     icon: Workflow,
   },
   {
-    title: "Digital transformation",
+    title: "Product Design and Development",
     description:
-      "Connected systems that bring teams, data, and operations together around measurable business outcomes.",
-    href: "/services/digital-business-transformation",
-    icon: Rocket,
+      "Partner with us to build custom web and mobile applications designed around your business ideas.",
+    href: "/services/product-design-development",
+    icon: Sparkle,
   },
   {
-    title: "Technology strategy",
+    title: "Cloud and DevOps Solutions",
     description:
-      "Clear architecture, platform choices, and delivery roadmaps that help you invest and build with confidence.",
-    href: "/services/it-consulting-technology-strategy",
-    icon: Sparkle,
+      "Secure, scalable cloud infrastructure and DevOps practices that accelerate delivery and reduce costs.",
+    href: "/services/cloud-and-devops",
+    icon: Cloud,
   },
 ];
 
@@ -73,7 +74,7 @@ export function ServiceList() {
                 <h3 className="mb-4 text-[clamp(1.35rem,1.55vw,1.7rem)] leading-[1.12] tracking-[-.035em]">
                   {service.title}
                 </h3>
-                <p className="m-0 text-[1rem] leading-[1.58] text-[#625c68]">
+                <p className="m-0 text-[clamp(0.5rem,1vw,0.9rem)] leading-[1.58] text-[#625c68]">
                   {service.description}
                 </p>
               </div>

@@ -1,4 +1,17 @@
-export const siteUrl = "https://dwhalestech.com";
+export const siteUrl = "https://www.dwhalestech.com";
+
+export const companyIdentity = {
+  name: "DW Tech",
+  alternateName: "DW Tech by Desert Whales",
+  parentName: "Desert Whales Marketing Services LLC",
+  description:
+    "DW Tech is the Dubai-headquartered technology and digital-transformation division of Desert Whales Marketing Services LLC.",
+  headquarters: {
+    city: "Dubai",
+    country: "United Arab Emirates",
+    countryCode: "AE",
+  },
+} as const;
 
 export const services = [
   {

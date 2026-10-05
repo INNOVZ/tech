@@ -9,7 +9,7 @@ import { button, shell } from "@/lib/styles";
 const links = [
   ["Expertise", "/#services"],
   ["Approach", "/#approach"],
-  ["Company", "/#company"],
+  ["Company", "/about"],
   ["Contact", "/#contact"],
 ] as const;
 
