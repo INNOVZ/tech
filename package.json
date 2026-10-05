@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "cobe": "^2.0.1",
     "framer-motion": "^13.4.0",
     "lucide-react": "^1.49.0",
     "next": "15.5.25",

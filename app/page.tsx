@@ -14,6 +14,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { TechnologyStack } from "@/components/technology-stack";
 import { ClientsMarquee } from "@/components/clients-marquee";
+import { Globe } from "@/components/globe";
 import {
   companyIdentity,
   contacts,
@@ -299,12 +300,7 @@ export default function Home() {
               className="absolute top-[-190px] right-[-130px] aspect-square w-[min(58vw,800px)] max-[860px]:top-[-80px] max-[860px]:right-[-260px] max-[860px]:w-[700px] max-[860px]:opacity-55 max-[620px]:right-[-390px]"
               aria-hidden="true"
             >
-              <i className="absolute inset-0 rounded-full border border-[#6f3edc]/25" />
-              <i className="absolute inset-[15%] rounded-full border border-[#6f3edc]/25" />
-              <i className="absolute inset-[31%] rounded-full border border-[#6f3edc]/25" />
-              <span className="absolute inset-[42%] grid place-items-center rounded-full bg-midnight text-[1.2rem] font-semibold text-white">
-                DW
-              </span>
+              <Globe className="w-full h-full opacity-80" />
             </div>
           </ScaleIn>
           <div
