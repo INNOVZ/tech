@@ -8,6 +8,12 @@
   --color-ink: #111111;
   --color-mist: #f5f3fa;
   --ease-fluid: cubic-bezier(.2, .75, .25, 1);
+  --animate-marquee: marquee 40s linear infinite;
+  
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
 }
 
 @layer base {

@@ -13,6 +13,7 @@ import { ServiceList } from "@/components/service-list";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { TechnologyStack } from "@/components/technology-stack";
+import { ClientsMarquee } from "@/components/clients-marquee";
 import {
   companyIdentity,
   contacts,
@@ -281,6 +282,10 @@ export default function Home() {
                 </StaggerItem>
               ))}
             </StaggerContainer>
+          </div>
+          
+          <div className={shell}>
+            <ClientsMarquee />
           </div>
         </section>
 
