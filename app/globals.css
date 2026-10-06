@@ -9,10 +9,15 @@
   --color-mist: #f5f3fa;
   --ease-fluid: cubic-bezier(.2, .75, .25, 1);
   --animate-marquee: marquee 40s linear infinite;
-  
+
   @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
   }
 }
 
@@ -50,7 +55,7 @@
     margin: 0;
     background: var(--color-night);
     color: white;
-    
+
     font-size: 16px;
     line-height: 1.5;
     overflow-x: clip;
@@ -95,7 +100,7 @@
   h3 {
     margin-top: 0;
     font-weight: 400;
-    font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Manrope", sans-serif;
   }
 
   h1,
@@ -104,8 +109,7 @@
     font-weight: 00;
     line-height: .98;
     letter-spacing: -.045em;
-    font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
+    font-family: "Manrope", sans-serif;
   }
 
   :focus-visible {

@@ -109,53 +109,53 @@ export default function Home() {
             <div
               className={`${shell} relative z-[1] grid min-h-[710px] grid-cols-[minmax(35vw,.5fr)_minmax(520px,1.25fr)] items-center gap-[clamp(30px,5vw,78px)] max-[1080px]:grid-cols-[.8fr_1.2fr] max-[860px]:flex max-[860px]:min-h-0 max-[860px]:flex-col`}
             >
-            <div className="py-16 max-[860px]:w-full max-[860px]:pt-11 max-[860px]:pb-2.5 max-[620px]:pt-6">
-              <FadeIn>
-                <h1 className="mb-[30px] max-w-[50vw] text-[clamp(3.7rem,5vw,6rem)] max-[1080px]:text-[clamp(3.3rem,6vw,5rem)] max-[620px]:text-[clamp(3.1rem,15vw,4.5rem)]">
-                  Technology that moves business{" "}
-                  <span className="text-orchid">forward.</span>
-                </h1>
-              </FadeIn>
-              <FadeIn delay={0.2}>
-                <div className="mt-10 flex flex-wrap items-center gap-5 max-[620px]:flex-col max-[620px]:items-stretch">
-                  <Link
-                    className="btn"
-                    href="mailto:tech@thedesertwhales.com?subject=New%20project%20enquiry"
-                  >
-                    Make an Enquiry <ArrowUpRight />
-                  </Link>
-                </div>
-              </FadeIn>
-            </div>
-            <ScaleIn delay={0.15} duration={0.9} from={0.96}>
-              <div
-                className="relative aspect-[1.25/1] min-w-0 overflow-hidden before:pointer-events-none before:absolute before:inset-0 before:z-[2] before:bg-[linear-gradient(90deg,#05040e,transparent_16%,transparent_84%,#05040e)] before:content-[''] max-[860px]:w-full max-[620px]:aspect-[.95/1]"
-                aria-label="A glass whale form representing intelligent, scalable technology"
-              >
-                <Image
-                  className="object-cover max-[620px]:object-center"
-                  src="/hero-whale.png"
-                  alt=""
-                  fill
-                  priority
-                  sizes="(max-width: 900px) 100vw, 58vw"
-                />
-                <p className="absolute top-7 right-[30px] z-[3] text-[.58rem] leading-[1.7] tracking-[.24em] text-white/60 uppercase before:absolute before:top-[9px] before:left-[-44px] before:h-px before:w-7 before:bg-white/55 before:content-[''] max-[620px]:hidden">
-                  People
-                  <br />
-                  Technology
-                  <br />A brighter tomorrow
-                </p>
-                <p className="absolute bottom-[26px] left-[30px] z-[3] text-[.58rem] leading-[1.7] tracking-[.24em] text-white/60 uppercase before:absolute before:top-[9px] before:right-[-44px] before:h-px before:w-7 before:bg-white/55 before:content-[''] max-[620px]:hidden">
-                  Ideas
-                  <br />
-                  Systems
-                  <br />
-                  Progress
-                </p>
+              <div className="py-16 max-[860px]:w-full max-[860px]:pt-11 max-[860px]:pb-2.5 max-[620px]:pt-6">
+                <FadeIn>
+                  <h1 className="mb-[30px] max-w-[50vw] text-[clamp(3.7rem,5vw,6rem)] max-[1080px]:text-[clamp(3.3rem,6vw,5rem)] max-[620px]:text-[clamp(3.1rem,15vw,4.5rem)]">
+                    Technology that moves business{" "}
+                    <span className="text-orchid">forward.</span>
+                  </h1>
+                </FadeIn>
+                <FadeIn delay={0.2}>
+                  <div className="mt-10 flex flex-wrap items-center gap-5 max-[620px]:flex-col max-[620px]:items-stretch">
+                    <Link
+                      className="btn"
+                      href="mailto:tech@thedesertwhales.com?subject=New%20project%20enquiry"
+                    >
+                      Make an Enquiry <ArrowUpRight />
+                    </Link>
+                  </div>
+                </FadeIn>
               </div>
-            </ScaleIn>
-          </div>
+              <ScaleIn delay={0.15} duration={0.9} from={0.96}>
+                <div
+                  className="relative aspect-[1.25/1] min-w-0 overflow-hidden before:pointer-events-none before:absolute before:inset-0 before:z-[2] before:bg-[linear-gradient(90deg,#05040e,transparent_16%,transparent_84%,#05040e)] before:content-[''] max-[860px]:w-full max-[620px]:aspect-[.95/1]"
+                  aria-label="A glass whale form representing intelligent, scalable technology"
+                >
+                  <Image
+                    className="object-cover max-[620px]:object-center"
+                    src="/hero-whale.png"
+                    alt=""
+                    fill
+                    priority
+                    sizes="(max-width: 900px) 100vw, 58vw"
+                  />
+                  <p className="absolute top-7 right-[30px] z-[3] text-[.58rem] leading-[1.7] tracking-[.24em] text-white/60 uppercase before:absolute before:top-[9px] before:left-[-44px] before:h-px before:w-7 before:bg-white/55 before:content-[''] max-[620px]:hidden">
+                    People
+                    <br />
+                    Technology
+                    <br />A brighter tomorrow
+                  </p>
+                  <p className="absolute bottom-[26px] left-[30px] z-[3] text-[.58rem] leading-[1.7] tracking-[.24em] text-white/60 uppercase before:absolute before:top-[9px] before:right-[-44px] before:h-px before:w-7 before:bg-white/55 before:content-[''] max-[620px]:hidden">
+                    Ideas
+                    <br />
+                    Systems
+                    <br />
+                    Progress
+                  </p>
+                </div>
+              </ScaleIn>
+            </div>
           </ScrollParallax>
         </section>
 
@@ -172,8 +172,12 @@ export default function Home() {
             </FadeIn>
             <FadeIn delay={0.15}>
               <div className="grid gap-6 border-l border-white/20 pl-[clamp(28px,4vw,70px)] text-[#b7b2c2] max-[860px]:border-t max-[860px]:border-l-0 max-[860px]:pt-8 max-[860px]:pl-0">
-                <ScrollScrubReveal className="m-0 text-[clamp(0.5rem,1vw,0.9rem)] leading-[1.6]">
-                  We combine business strategy, product design, engineering, automation, and cloud expertise to solve real operational challenges. Our work is designed around the business: the way teams operate today, the experiences customers expect, and the system growth that demand tomorrow.
+                <ScrollScrubReveal className="m-0 text-[clamp(0.8rem,1vw,0.9rem)] leading-[1.6]">
+                  We combine business strategy, product design, engineering,
+                  automation, and cloud expertise to solve real operational
+                  challenges. Our work is designed around the business: the way
+                  teams operate today, the experiences customers expect, and the
+                  system growth that demand tomorrow.
                 </ScrollScrubReveal>
               </div>
             </FadeIn>
@@ -231,7 +235,7 @@ export default function Home() {
                     <h3 className="mb-3.5 text-[1.35rem] leading-[1.2] tracking-[-.03em]">
                       {title}
                     </h3>
-                    <p className="m-0 text-[.88rem] leading-[1.55] text-[#bbb5ca]">
+                    <p className="m-0 text-[clamp(0.8rem,1vw,0.9rem)] leading-[1.55] text-[#bbb5ca]">
                       {description}
                     </p>
                   </StaggerItem>
@@ -284,7 +288,7 @@ export default function Home() {
               ))}
             </StaggerContainer>
           </div>
-          
+
           <div className={shell}>
             <ClientsMarquee />
           </div>
@@ -292,7 +296,7 @@ export default function Home() {
 
         {/* ── Global presence ── */}
         <section
-          className={`${section} min-h-207.5 overflow-hidden bg-white text-ink`}
+          className={`${section} overflow-hidden bg-white text-ink`}
           aria-labelledby="presence-title"
         >
           <ScaleIn delay={0.2} duration={1} from={0.9}>
@@ -318,8 +322,10 @@ export default function Home() {
                 </h2>
               </FadeIn>
               <FadeIn delay={0.1}>
-                <ScrollScrubReveal className="max-w-[560px] text-[1.1rem] leading-[1.55] text-[#5b5764]">
-                  Different markets. A united mindset. Our teams work across regions to stay close to your goals, your customers, and what's next.
+                <ScrollScrubReveal className="max-w-[560px] text-[clamp(0.8rem,1vw,0.9rem)] leading-[1.55] text-[#5b5764]">
+                  Different markets. A united mindset. Our teams work across
+                  regions to stay close to your goals, your customers, and
+                  what's next.
                 </ScrollScrubReveal>
               </FadeIn>
             </div>
@@ -367,7 +373,7 @@ export default function Home() {
               <StaggerItem>
                 <details open>
                   <summary>What does DW Tech do?</summary>
-                  <p>
+                  <p className="text-[clamp(0.8rem,1vw,0.9rem)]">
                     We plan, design, build, integrate, and support custom
                     software, AI automation, ERP and CRM platforms, mobile and
                     web applications, cloud infrastructure, and digital
@@ -378,7 +384,7 @@ export default function Home() {
               <StaggerItem>
                 <details>
                   <summary>Who do you work with?</summary>
-                  <p>
+                  <p className="text-[clamp(0.8rem,1vw,0.9rem)]">
                     We work with growing businesses and established
                     organizations that need practical technology to improve
                     operations, customer experience, and scale.
@@ -388,7 +394,7 @@ export default function Home() {
               <StaggerItem>
                 <details>
                   <summary>How does a project begin?</summary>
-                  <p>
+                  <p className="text-[clamp(0.8rem,1vw,0.9rem)]">
                     We start by understanding your business model, workflows,
                     users, current systems, constraints, and growth goals. That
                     context shapes the roadmap and technical approach.

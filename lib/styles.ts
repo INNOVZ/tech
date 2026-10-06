@@ -2,7 +2,7 @@ export const shell =
   "mx-auto w-[min(1320px,calc(100%_-_clamp(40px,8.4vw,144px)))] max-[620px]:w-[calc(100%_-_40px)]";
 
 export const section =
-  "relative py-[clamp(92px,10vw,56px)] max-[860px]:py-[88px] max-[620px]:py-[76px]";
+  "relative py-[clamp(92px,10vw,56px)] max-[860px]:py-[80px] max-[620px]:py-[76px]";
 
 export const sectionLabel =
   "mb-[30px] text-[.72rem] leading-[1.2] font-semibold tracking-[.28em] text-orchid uppercase";

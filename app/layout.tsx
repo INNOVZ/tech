@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Lato } from "next/font/google";
+import { Lato, Space_Grotesk, Manrope } from "next/font/google";
 import "./globals.css";
 import { siteUrl } from "@/lib/site-data";
 
@@ -56,6 +56,17 @@ const lato = Lato({
   weight: ["400", "700"],
   variable: "--font-lato",
 });
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["700"],
+  variable: "--font-space-grotesk",
+});
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-manrope",
+});
+
 export const viewport: Viewport = {
   themeColor: "#05040E",
   colorScheme: "dark light",

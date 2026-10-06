@@ -8,7 +8,7 @@ import { button, sectionLabel, shell } from "@/lib/styles";
 export function SiteFooter() {
   return (
     <footer
-      className="relative overflow-hidden bg-[radial-gradient(circle_at_90%_30%,rgba(83,29,160,.26),transparent_38%),#07070b] pt-[clamp(92px,10vw,156px)] pb-7 text-white before:absolute before:top-[-260px] before:right-[-260px] before:size-[720px] before:rounded-full before:border before:border-orchid/15 before:content-[''] max-[860px]:pt-[88px] max-[620px]:pt-[76px]"
+      className="relative overflow-hidden bg-[radial-gradient(circle_at_90%_30%,rgba(83,29,160,.26),transparent_38%),#07070b] pt-[clamp(52px,1vh,66px)] pb-7 text-white before:absolute before:top-[-260px] before:right-[-260px] before:size-[720px] before:rounded-full before:border before:border-orchid/15 before:content-[''] max-[860px]:pt-[88px] max-[620px]:pt-[76px]"
       id="contact"
     >
       <div className={shell}>
@@ -23,7 +23,7 @@ export function SiteFooter() {
           </FadeIn>
           <FadeIn delay={0.15}>
             <div>
-              <p className="max-w-[490px] text-[1.08rem] leading-[1.55] text-[#c3becb] mb-5">
+              <p className="max-w-[490px] text-[clamp(0.8rem,1vw,0.9rem)] leading-[1.55] text-[#c3becb] mb-5">
                 Tell us where your business needs to go. We'll help shape the
                 technology to get there.
               </p>

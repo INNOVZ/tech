@@ -62,7 +62,7 @@ export function ServiceList() {
         return (
           <StaggerItem as="article" key={service.href} className="h-full">
             <Link
-              className="group flex h-full min-h-[380px] bg-white/60 flex-col rounded-3xl bg-card p-8 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-[var(--shadow-warm)]"
+              className="group flex h-full min-h-[380px] max-[680px]:min-h-0 bg-white/60 flex-col rounded-3xl bg-card p-8 max-[680px]:p-6 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-[var(--shadow-warm)]"
               href={service.href}
               aria-label={`Explore ${service.title}`}
             >
@@ -70,11 +70,11 @@ export function ServiceList() {
                 <ServiceIcon aria-hidden="true" size={32} />
               </span>
 
-              <div className="mt-auto min-h-[178px] pt-12 max-[680px]:min-h-0">
+              <div className="mt-auto min-h-[178px] pt-12 max-[680px]:min-h-0 max-[680px]:mt-6 max-[680px]:pt-0">
                 <h3 className="mb-4 text-[clamp(1.35rem,1.55vw,1.7rem)] leading-[1.12] tracking-[-.035em]">
                   {service.title}
                 </h3>
-                <p className="m-0 text-[clamp(0.5rem,1vw,0.9rem)] leading-[1.58] text-[#625c68]">
+                <p className="m-0 text-[clamp(0.8rem,1vw,0.9rem)] leading-[1.58] text-[#625c68]">
                   {service.description}
                 </p>
               </div>
