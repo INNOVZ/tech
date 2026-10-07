@@ -193,7 +193,7 @@ export default function Home() {
             <FadeIn className={sectionHeading}>
               <div>
                 <p className={sectionLabel}>We Excells</p>
-                <h2 className="m-0 text-[clamp(3.6rem,6vw,7rem)] max-[620px]:text-[clamp(2.8rem,13vw,4.3rem)]">
+                <h2 className="m-0 text-[clamp(3.6rem,6vw,5rem)] max-[620px]:text-[clamp(2.8rem,13vw,4.3rem)]">
                   What we build
                 </h2>
               </div>
@@ -314,7 +314,7 @@ export default function Home() {
               <FadeIn>
                 <p className={sectionLabel}>Global presence</p>
                 <h2
-                  className="mb-[38px] max-w-[820px] text-[clamp(4rem,7vw,8.5rem)] max-[620px]:text-[clamp(2.8rem,13vw,4.3rem)]"
+                  className="mb-[38px] max-w-[820px] text-[clamp(3rem,7vw,6rem)] max-[620px]:text-[clamp(2.8rem,13vw,4.3rem)]"
                   id="presence-title"
                 >
                   Built close to{" "}

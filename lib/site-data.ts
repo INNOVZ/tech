@@ -5,7 +5,7 @@ export const companyIdentity = {
   alternateName: "DW Tech by Desert Whales",
   parentName: "Desert Whales Marketing Services LLC",
   description:
-    "DW Tech is the Dubai-headquartered technology and digital-transformation division of Desert Whales Marketing Services LLC.",
+    "DW Tech is the Dubai-headquartered technology and digital-transformation division of Desert Whales Marketing Services LLC which offers Web and mobile development solutions and AI Automations and workflow for businesses.",
   headquarters: {
     city: "Dubai",
     country: "United Arab Emirates",

@@ -10,16 +10,22 @@ export const metadata: Metadata = {
     template: "%s | DW Tech",
   },
   description:
-    "DW Tech designs and builds custom software, AI automation, ERP and CRM systems, cloud platforms, mobile apps, and digital transformation programs for growing businesses.",
+    "DW Tech designs and builds custom software, AI automation, ERP and CRM systems, cloud platforms, mobile apps, AI Automations and digital transformation programs for growing businesses.",
   keywords: [
-    "digital transformation company",
-    "custom software development",
-    "AI automation solutions",
-    "ERP CRM implementation",
-    "cloud solutions",
-    "mobile app development",
+    "digital transformation company in Dubai",
+    "custom software development company in Dubai",
+    "AI automation solutions providing company in Dubai",
+    "ERP, CRM development and implementation providing company in Dubai",
+    "cloud solutions providing company in Dubai",
+    "mobile app development company in Dubai",
     "Dubai technology company",
-    "Kerala software company",
+    "digital transformation in Dubai",
+    "custom software development in UAE",
+    "AI automation solutions in UAE",
+    "ERP, CRM development and implementation in UAE",
+    "cloud solutions in UAE",
+    "mobile app development in UAE",
+    "Dubai technology company in UAE",
   ],
   authors: [{ name: "DW Tech" }],
   creator: "DW Tech",
@@ -30,7 +36,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "DW Tech",
-    title: "DW Tech | Technology that moves business forward",
+    title: "DW tech | Technology that moves business forward",
     description:
       "Intelligent digital ecosystems, custom software, AI automation, and cloud solutions built around real business goals.",
     images: [
@@ -50,6 +56,9 @@ export const metadata: Metadata = {
     images: ["/hero-whale.png"],
   },
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 const lato = Lato({
   subsets: ["latin"],

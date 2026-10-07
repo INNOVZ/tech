@@ -31,7 +31,10 @@ const technologies: Technology[] = [
   { name: "Microsoft", src: "https://svgl.app/library/microsoft.svg" },
   { name: "Databricks", src: "https://cdn.simpleicons.org/databricks" },
   { name: "Snowflake", src: "https://cdn.simpleicons.org/snowflake" },
-  { name: "Azure DevOps", src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg" },
+  {
+    name: "Azure DevOps",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuredevops/azuredevops-original.svg",
+  },
   { name: "Jenkins", src: "https://cdn.simpleicons.org/jenkins" },
   { name: "Open AI", src: "https://svgl.app/library/openai.svg" },
   { name: "Gemini", src: "https://cdn.simpleicons.org/googlegemini" },
@@ -43,7 +46,7 @@ export function TechnologyStack() {
     <div className="mt-[clamp(52px,6vw,80px)]  grid grid-cols-1 lg:grid-cols-[.6fr_1.4fr] gap-10 items-center">
       <FadeIn className="flex items-center h-full">
         <h2 className={`${sectionLabel} !text-black !m-0`}>
-          Our Technology Ecosytem
+          Technology Ecosytem
         </h2>
       </FadeIn>
       <div className="relative overflow-hidden w-full [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
