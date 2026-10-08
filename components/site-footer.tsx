@@ -32,7 +32,7 @@ export function SiteFooter() {
                 className={`flex items-center gap-3 justify-start text-[.9rem]`}
                 href="mailto:tech@thedesertwhales.com?subject=New%20project%20enquiry"
               >
-                Start a Conversation
+                <span className="cta-link-text" data-text="Start a Conversation">Start a Conversation</span>
                 <span className={`${button}`}>
                   <ArrowUpRight />
                 </span>

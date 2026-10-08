@@ -182,3 +182,28 @@
 .btn:hover {
   gap: 10px;
 }
+
+/* "Start a Conversation" bold-on-hover */
+.cta-link-text {
+  display: inline-block;
+  font-weight: 400;
+  transition: font-weight 0.3s ease;
+}
+
+/* Reserve bold-width space to prevent layout shift */
+.cta-link-text::after {
+  content: attr(data-text);
+  font-weight: 700;
+  visibility: hidden;
+  height: 0;
+  display: block;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Parent link hover triggers the weight change */
+a:hover > .cta-link-text,
+.cta-link-text:hover {
+  font-weight: 700;
+}
