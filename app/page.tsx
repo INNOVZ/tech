@@ -103,7 +103,7 @@ export default function Home() {
           <SiteHeader />
           <ScrollParallax offset={150}>
             <div
-              className="absolute inset-0 bg-[radial-gradient(circle,rgba(176,99,255,.68)_0_1px,transparent_1.3px)] bg-[length:94px_94px] opacity-[.18] [mask-image:linear-gradient(to_bottom,#000,transparent_75%)]"
+              className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle,rgba(176,99,255,.68)_0_1px,transparent_1.3px)] bg-[length:94px_94px] opacity-[.18] [mask-image:linear-gradient(to_bottom,#000,transparent_75%)]"
               aria-hidden="true"
             />
             <div
@@ -199,7 +199,7 @@ export default function Home() {
               </div>
             </FadeIn>
             <ServiceList />
-            <TechnologyStack />
+            {/* <TechnologyStack /> */}
           </div>
         </section>
 

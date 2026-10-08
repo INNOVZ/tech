@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { Mail, Phone } from "@/components/icons";
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/motion";
+import { ArrowUpRight} from "@/components/icons";
 import { contacts } from "@/lib/site-data";
 import { button, sectionLabel, shell } from "@/lib/styles";
 
@@ -28,10 +29,13 @@ export function SiteFooter() {
                 technology to get there.
               </p>
               <Link
-                className={button}
-                href={`mailto:${contacts.email}?subject=New%20project%20enquiry`}
+                className={`flex items-center gap-3 justify-start text-[.9rem]`}
+                href="mailto:tech@thedesertwhales.com?subject=New%20project%20enquiry"
               >
-                Start a conversation
+                Start a Conversation
+                <span className={`${button}`}>
+                  <ArrowUpRight />
+                </span>
               </Link>
             </div>
           </FadeIn>
